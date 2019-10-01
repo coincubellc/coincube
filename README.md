@@ -50,7 +50,7 @@ Run the Docker container(s):
 docker-compose up
 ```
 
-###Important!
+### Important!
 The first time you run `docker-compose up` you will need to wait for the database to be populated. This should take 10-15 minutes.
 
 
