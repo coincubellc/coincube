@@ -1,0 +1,6 @@
+[submodule "back"]
+	path = back
+	url = https://github.com/coincubellc/back
+[submodule "front"]
+	path = front
+	url = https://github.com/coincubellc/front
