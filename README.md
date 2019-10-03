@@ -76,3 +76,12 @@ npm run build
 
 # Using Application
 Once front and back are running, navigate to: http://0.0.0.0:8080 in your browser.
+
+# To connect directly to the database
+TCP/IP <br>
+Name: local <br>
+Host: 127.0.0.1 <br>
+Username: admin <br>
+Password: 4pa1z&ABK78R <br>
+Database: coincube <br>
+Port: 3306
