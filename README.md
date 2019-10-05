@@ -33,8 +33,8 @@ cd back
 </p>
 
 1. From inside of the `back` folder, generate a new seed `python generate_vault_seed.py` which will generate a new seed.
-2. Paste the entire encoded key as a string on lines 18 and 113 of `docker-compose.yml`
-3. These two lines should look something like: `VAULT_SEED: 'b'LS0tLS1CRUdJTiBSU0......TVV6UWh3PT0KLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0tLS0='`
+2. Paste the entire encoded key except for the preceding 'b' as a string on lines 18 and 113 of `docker-compose.yml`
+3. These two lines should look something like: `VAULT_SEED: 'LS0tLS1CRUdJTiBSU0......TVV6UWh3PT0KLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0tLS0='`
 4. Save `docker-compose.yml`.
 
 ### Docker Setup
