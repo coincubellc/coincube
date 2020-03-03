@@ -19,7 +19,7 @@
 
 
 ## Getting Started
-You will need some developer tools to get up and running. Please install <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">git</a>, <a href="https://www.docker.com/products/developer-tools">docker</a>, and <a href="https://nodejs.org/en/download/">node</a>.
+You will need some developer tools to get up and running. Please install <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">git</a> and <a href="https://www.docker.com/products/developer-tools">docker</a>.
 
 You will also need <a href="https://www.python.org/downloads/">python3</a>, <a href="https://pip.pypa.io/en/stable/installing/">pip</a>, and  `pycrypto` installed locally. Once you have `pip` installed, you can run:
 ```
@@ -53,12 +53,10 @@ cd back
 </p>
 
 1. From inside of the `back` folder, generate a new seed `python generate_vault_seed.py` which will generate a new seed.
-2. Paste the entire encoded key except for the preceding as a string on lines 18 and 113 of `docker-compose.yml` in the root `coincube` directory.
+2. Paste the entire encoded key as a string on lines 18 and 113 of `docker-compose.yml` in the root `coincube` directory.
 4. Save `docker-compose.yml`.
 
 ### Building and Running the App
-You will need <a href="https://docker.com" target="_blank">Docker</a>.
-
 From inside of the root `coincube` directory, build/run the Docker container(s):
 ```
 docker-compose build
@@ -73,7 +71,7 @@ docker-compose up
 The first time you run `docker-compose up` you will need to wait for the database to be populated. This should take 10-15 minutes.
 
 # Using Application
-Once application is running, navigate to: http://0.0.0.0:8080 in your browser.
+Once application is running and the database is populated, navigate to: http://0.0.0.0:8080 in your browser.
 
 # To connect directly to the database
 TCP/IP <br>
